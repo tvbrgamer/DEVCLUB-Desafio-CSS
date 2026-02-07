@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    width: 100vw;
+}
+
+nav {
+    margin: 47px 0 0 42px;
+}
+
+.link-nav {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-nav {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: #4CB538 1px solid;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+section {
+    height: 500px;
+    margin: 177px 0 0 121px;
+    display: inline-block;
+}
+
+.div-image,
+.text-div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image {
+    width: 595px;
+    height: 500px;
+}
+
+.text-div {
+    margin-left: 85px;
+    width: 582px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    margin-top: 96px;
+    margin-bottom: 47px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+.p-section {
+    width: 493px;
+    height: 99px;
+    margin-bottom: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.link-section {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    * {
+        max-width: 100vw;
+    }
+
+    body,section,main{
+        height: 100vh;
+    }
+
+
+    section {
+        margin: 0 auto;
+    }
+
+    .link-nav {
+        display: none;
+    }
+
+    .button-nav {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+
+    .text-div {
+        margin: 0 auto;
+        text-align: center;
+        position: absolute;
+        top: 10px;
+    }
+
+    h1 {
+        margin: 124px auto 29px;
+        width: 278px;
+        height: 60px;
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+    .p-section {
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        margin: 0 auto 26px;
+    }
+
+
+    .link-section {
+        font-size: 18px;
+        width: 112px;
+        height: 27px;
+        margin-bottom: 60px;
+    }
+
+
+    .div-image {
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .image {
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+
+
+    .image,
+    .text-div {
+        display: block;
+    }
+
+}
